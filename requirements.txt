@@ -1,0 +1,8 @@
+# Secure Chord P2P object store -- runtime dependencies.
+#
+# None. The revamp deliberately uses only the Python 3.9+ standard library
+# (socket, threading, json, struct, hashlib, statistics, dataclasses).
+# The original code's only third-party import (numpy, used for one mean/std in
+# verify_hop) has been replaced with the stdlib `statistics` module.
+#
+# Python 3.9 or newer is required.
